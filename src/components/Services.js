@@ -68,7 +68,7 @@ const Services = () => {
 
                 </div>
                 <div className='flex flex-col items-center'>
-                  <a className='cursor-pointer bg-cyan-500 hover:bg-cyan-600 transition duration-200 w-8 h-8 flex items-center justify-center rounded-full' href="#"><BsArrowUpRight/></a>
+                  <a className='cursor-pointer bg-cyan-500 hover:bg-cyan-600 transition duration-200 w-8 h-8 flex items-center justify-center rounded-full' href="work"><BsArrowUpRight/></a>
                   <a className='text-[14px] mt-2 hover:text-[16px] text-cyan-400' href="#">{Link}</a>
                 </div>
               </div>
