@@ -28,7 +28,7 @@ const Work = () => {
           whileInView={"show"}
           className='group relative overflow-hidden border-2 w-[500px] h-[250px] border-white/50 rounded-xl'>
             <div className='group-hover:bg-black/60 absolute w-full h-full z-40 transition-all duration-300'></div>
-            <img className='group-hover:scale-125 transition-all h-full  duration-500' src={Img1}  />
+            <img className='group-hover:scale-125 transition-all h-full  duration-500' src={Img1} alt=' ' />
             <div className=' font-tertiary absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>UX/UI DESIGNS
                 </span>
@@ -45,7 +45,7 @@ const Work = () => {
         className='flex-1 flex flex-col gap-y-10'>
         <div className='group relative overflow-hidden border-2 w-[500px] h-[250px] border-white/50 rounded-xl'>
             <div className='group-hover:bg-black/60 absolute w-full h-full z-40 transition-all duration-300'></div>
-            <img className='group-hover:scale-125 transition-all h-full  duration-500' src={Img2}  />
+            <img className='group-hover:scale-125 transition-all h-full  duration-500' src={Img2} alt=' ' />
             <div className=' font-tertiary absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>WEBSITES
                 </span>
@@ -56,7 +56,7 @@ const Work = () => {
           </div>
           <div className='group relative overflow-hidden border-2 w-[500px] h-[250px] border-white/50 rounded-xl'>
             <div className='group-hover:bg-black/60 absolute w-full h-full z-40 transition-all duration-300'></div>
-            <img className='group-hover:scale-125 transition-all h-full  duration-500' src={Img3}  />
+            <img className='group-hover:scale-125 transition-all h-full  duration-500' src={Img3} alt=' ' />
             <div className=' font-tertiary absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
               <span className='text-gradient'>MANAGEMENT
                 </span>
