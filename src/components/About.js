@@ -63,7 +63,7 @@ Strong understanding of user-centered design principles and methodologies.
           </div>
           <div className='flex gap-x-8 items-center'>
             <Link to="contact"><button className='btn btn-lg'>CONTACT ME</button></Link>
-            <a href="#" className='text-gradient btn-link'>
+            <a href="home" className='text-gradient btn-link'>
               My Portfolio
             </a>
           </div>
