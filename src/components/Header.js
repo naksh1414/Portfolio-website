@@ -6,8 +6,8 @@ const Header = () => {
   return <header className='top-0 lg:top-0'  >
     <div className="container mx-auto top-0 lg:top-0">
       <div className='flex justify-between items-center'>
-        <a href="#">
-          <img src={logo} className='h-[150px] w-[200px]' />
+        <a href="home">
+          <img src={logo} className='h-[150px] w-[200px]' alt=' ' />
         </a>
          <Link to="contact">
         <button type='button'
