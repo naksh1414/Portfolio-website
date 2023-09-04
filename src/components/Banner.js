@@ -44,7 +44,7 @@ const Banner = () => {
                initial="hidden"
                 whileInView={'show'}
                  className='max-w-max mx-auto lg:mx-0 py-4 '>
-              <a href="#" className='text-gradient btn-link '> MY PORTFOLIO</a>
+              <a href="home" className='text-gradient btn-link '> MY PORTFOLIO</a>
             </motion.div>
             <motion.div  
             variants={fadeIn('down',0.3)}
@@ -67,7 +67,7 @@ const Banner = () => {
           initial="hidden"
            whileInView={'show'} 
             className=' hidden lg:flex flex-1 max-w-[320px] lg:max-w-[382px] items-center justify-center mx-auto mb-8 mr-6'>
-          <img src={Image} />
+          <img src={Image} alt='' />
         </motion.div>
       </div>
     </div>
